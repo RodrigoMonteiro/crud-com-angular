@@ -20,8 +20,10 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import {  HttpClientModule}from '@angular/common/http';
 
 import {FormsModule} from '@angular/forms'
+import { MatTableModule } from '@angular/material/table'
 import {MatFormFieldModule} from '@angular/material/form-field'
-import {MatInputModule} from '@angular/material/input'
+import {MatInputModule} from '@angular/material/input';
+import { ProductReadComponent } from './components/product/product-read/product-read.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import {MatInputModule} from '@angular/material/input'
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     MatToolbarModule,
@@ -46,7 +49,8 @@ import {MatInputModule} from '@angular/material/input'
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule
 
     
  
