@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs';
 import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
