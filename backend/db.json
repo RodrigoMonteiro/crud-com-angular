@@ -19,6 +19,16 @@
       "name": "Mouse RGB",
       "price": "120.00",
       "id": 4
+    },
+    {
+      "name": "Teste",
+      "price": "0.99",
+      "id": 5
+    },
+    {
+      "name": "Teste 1.1",
+      "price": "0.50",
+      "id": 6
     }
   ]
 }
